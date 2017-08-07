@@ -50,12 +50,11 @@
                                 
                         <div class="cedula">
                             <label for="ced">Cédula:<em>*</em></label>
-                            <div "input-box">
+                            <div class="input-box">
+                                <input class="boton" value="Obtener datos del Registro Civil" type="button" onclick="servletConsultarCedula();">
                                 <input type="text" id="ced" name="ced" value="" title="Ingrese su número de cédula" required class="entrada-datos" pattern="[0-9]{9}">
                             </div>
-                            <div class="botones"> 
-                        		<input class="boton" value="Obtener datos del Registro Civil" type="button" onclick="servletConsultarCedula();" id="btn-siguiente">
-                    		</div>
+                            
                         </div>
                         
                         <div class="nombre">
